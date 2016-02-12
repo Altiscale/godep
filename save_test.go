@@ -169,7 +169,7 @@ func TestSave(t *testing.T) {
 		},
 		{
 			// 2 - dependency in same repo with existing manifest
-			// see bug https://github.com/tools/godep/issues/69
+			// see bug https://github.com/Altiscale/godep/issues/69
 			cwd:  "P",
 			args: []string{"./..."},
 			start: []*node{
@@ -195,7 +195,7 @@ func TestSave(t *testing.T) {
 		},
 		{
 			// 3 - dependency on parent directory in same repo
-			// see bug https://github.com/tools/godep/issues/70
+			// see bug https://github.com/Altiscale/godep/issues/70
 			cwd:  "P",
 			args: []string{"./..."},
 			start: []*node{
@@ -664,7 +664,7 @@ func TestSave(t *testing.T) {
 			},
 			werr: true,
 		},
-		{ // 16 - Bug https://github.com/tools/godep/issues/85
+		{ // 16 - Bug https://github.com/Altiscale/godep/issues/85
 			cwd: "C",
 			start: []*node{
 				{
@@ -914,7 +914,7 @@ func TestSave(t *testing.T) {
 				},
 			},
 		},
-		{ // 22 - pull in minimal dependencies, see https://github.com/tools/godep/issues/93
+		{ // 22 - pull in minimal dependencies, see https://github.com/Altiscale/godep/issues/93
 			cwd:   "C",
 			flagR: true,
 			start: []*node{

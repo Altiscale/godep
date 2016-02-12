@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tools/godep/Godeps/_workspace/src/golang.org/x/tools/go/vcs"
+	"github.com/Altiscale/godep/Godeps/_workspace/src/golang.org/x/tools/go/vcs"
 )
 
 var cmdRestore = &Command{

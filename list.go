@@ -266,7 +266,7 @@ NextFile:
 				ct := c.Text()
 				if i := strings.Index(ct, buildMatch); i != -1 {
 					for _, b := range strings.FieldsFunc(ct[i+len(buildMatch):], buildFieldSplit) {
-						//TODO: appengine is a special case for now: https://github.com/tools/godep/issues/353
+						//TODO: appengine is a special case for now: https://github.com/Altiscale/godep/issues/353
 						if b == "ignore" || b == "appengine" {
 							p.IgnoredGoFiles = append(p.IgnoredGoFiles, fname)
 							continue NextFile

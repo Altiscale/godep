@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/tools/godep/Godeps/_workspace/src/github.com/kr/fs"
+	"github.com/Altiscale/godep/Godeps/_workspace/src/github.com/kr/fs"
 )
 
 type PathTest struct {

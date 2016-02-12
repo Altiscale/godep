@@ -14,7 +14,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tools/godep/Godeps/_workspace/src/github.com/kr/fs"
+	"github.com/Altiscale/godep/Godeps/_workspace/src/github.com/kr/fs"
 )
 
 var cmdSave = &Command{
@@ -573,7 +573,7 @@ This directory tree is generated automatically by godep.
 
 Please do not edit.
 
-See https://github.com/tools/godep for more information.
+See https://github.com/Altiscale/godep for more information.
 `
 	needRestore = `
 mismatched versions while migrating

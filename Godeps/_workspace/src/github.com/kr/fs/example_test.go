@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tools/godep/Godeps/_workspace/src/github.com/kr/fs"
+	"github.com/Altiscale/godep/Godeps/_workspace/src/github.com/kr/fs"
 )
 
 func ExampleWalker() {

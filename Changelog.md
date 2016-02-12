@@ -286,7 +286,7 @@ useful for debugging user's issues.
 
 The version const would be bumped each time a PR is merged into master
 to ensure that we'll be able to tell which version someone got when they
-did a `go get github.com/tools/godep`.
+did a `go get github.com/Altiscale/godep`.
 
 # Older changes
 

@@ -16,7 +16,7 @@ import (
 	"strconv"
 
 	"github.com/kr/pty"
-	"github.com/tools/godep/Godeps/_workspace/src/github.com/kr/text/colwriter"
+	"github.com/Altiscale/godep/Godeps/_workspace/src/github.com/kr/text/colwriter"
 )
 
 func main() {

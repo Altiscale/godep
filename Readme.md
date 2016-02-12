@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tools/godep.svg)](https://travis-ci.org/tools/godep)
 
-[![GoDoc](https://godoc.org/github.com/tools/godep?status.svg)](https://godoc.org/github.com/tools/godep)
+[![GoDoc](https://godoc.org/github.com/Altiscale/godep?status.svg)](https://godoc.org/github.com/Altiscale/godep)
 
 godep helps build packages reproducibly by fixing their dependencies.
 
@@ -13,7 +13,7 @@ but you can use it on any project that works with Go 1 or newer.
 ## Install
 
 ```console
-$ go get github.com/tools/godep
+$ go get github.com/Altiscale/godep
 ```
 
 ## How to use godep with a new project
